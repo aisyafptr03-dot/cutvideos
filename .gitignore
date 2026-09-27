@@ -1,0 +1,31 @@
+# Output program (jangan di-push: ratusan MB video + zip)
+hasil_potongan/
+uploads/
+
+# File video / arsip di mana pun (sabuk pengaman)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Env / secrets
+.env
